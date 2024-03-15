@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Signature</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .signature {
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        .name {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 5px;
+        }
+        .job-title {
+            color: #666;
+            margin-bottom: 10px;
+        }
+        .contact-info {
+            margin-top: 10px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="signature">
+            <p class="name">%%CN%%</p>
+            <p class="job-title">%%Title%%</p>
+            <p class="contact-info">
+                Email: %%UserPrincipalName%%<br>
+                Phone: %%OfficePhone%%<br>
+                Address: %%StreetAddress%%, %%PostalCode%% %%l%%, %%co%%
+            </p>
+        </div>
+    </div>
+</body>
+</html>

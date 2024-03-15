@@ -1,0 +1,6 @@
+%%CN%%
+%%Title%%
+
+Email: %%UserPrincipalName%%
+Phone: %%OfficePhone%%
+Address: %%StreetAddress%%, %%PostalCode%% %%l%%, %%co%%    
